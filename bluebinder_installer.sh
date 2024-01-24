@@ -24,7 +24,7 @@ echo -e "$YELLOW#=============================#"
 echo -e "${RED}1${YELLOW}/${GREEN}3${YELLOW} Stage is go - install requirements"
 echo -e "#=============================#$NOCOL"
 sudo apt update
-sudo apt-get install make gcc build-essential libglib* libsystemd-dev libbluetooth-dev git bluetooth bluez bluez-tools rfkill -y 
+sudo apt-get install make gcc build-essential libglib* libgtk-3-dev libudev-dev libsystemd-dev pkg-config libsystemd-dev libbluetooth-dev git bluetooth bluez bluez-tools rfkill -y 
 sleep 3
 
 
